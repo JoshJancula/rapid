@@ -74,7 +74,7 @@
               <div class='card-content'>
                  
                   <p>Learn more about the services provided for each software platform.</p>
-                 <!--button to trigger a contact modal-->
+                 <a class="waves-effect waves-light btn modal-trigger green" href="#modal1">Contact Support</a>
               </div>
           </div>
       </div>
@@ -86,7 +86,32 @@
       <!--end col2-->
   </div>
 
-        
+          <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="row">
+          <div class="row">
+        <div class="input-field col s12">
+          <input id="name" type="text">
+          <label for="name">Name</label>
+        </div>
+      </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="row">
+        <div class="input-field col s12">
+         <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">Message</label>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="btn green modal-close waves-effect waves-green btn-flat white-text">Submit</a>
+    </div>
+  </div>
         
   <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>

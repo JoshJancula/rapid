@@ -70,7 +70,7 @@
                         <a href='https://rapidcourt.com/?action=public.apply' class='green-text'>Complete our online service request form.</a>
                         
                         <h5>Technical Support:</h5>
-                          <a class="waves-effect waves-light btn modal-trigger green" href="#modal1">Contact Support</a><br><br><br>
+                          <a class="waves-effect waves-light btn modal-trigger green white-text" href="#modal1">Contact Support</a><br><br><br>
 
               <p>For additional requests or comments, including information about employment please contact us by mail or phone at our corporate office.</p>
                 
@@ -90,7 +90,7 @@
               <div class='card-content'>
                  
                   <p id='contactSideP'>RapidCourt.Com provides you with prompt, courteous service with a smile!<br>You get the answers you need in a timely manner.<br>We will provide specific account information, technical support or can offer website training or a trial account.</p>
-                 <!--button to trigger a contact modal-->
+               
               </div>
           </div>
       </div>
@@ -105,11 +105,27 @@
         <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+      <div class="row">
+          <div class="row">
+        <div class="input-field col s12">
+          <input id="name" type="text">
+          <label for="name">Name</label>
+        </div>
+      </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+        <div class="row">
+        <div class="input-field col s12">
+         <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">Message</label>
+        </div>
+      </div>
+      </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="btn green modal-close waves-effect waves-green btn-flat">Submit</a>
     </div>
   </div>
         
@@ -121,7 +137,6 @@
             $('.modal').modal();
             $('.collapsible').collapsible();
             $(".button-collapse").sideNav();
-            $('.scrollspy').scrollSpy();
         });
     </script>
 

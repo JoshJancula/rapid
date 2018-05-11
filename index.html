@@ -132,9 +132,10 @@
       </div>
       <div class='row center'>
           <!--connect this to modal in a few-->
-          <button class='btn green white-text' id='noticeButton' href='http://rapidcourt.com/?action=public.consumerDisputeNotice'>
+          <button class='btn green white-text modal-trigger'  id='noticeButton' href='#modal1'>
               RapidCourt Consumer Dispute Notice </button>
       </div>
+       
       <div class='row'>
           <img src='images/napbs.png' id='napbs'>
       </div>
@@ -142,7 +143,24 @@
       <!--end third-->
   </div>
 
-        
+       <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Consumer Dispute Notice</h4>
+      <p>If you have reason to believe that public record information furnished by our company to a consumer reporting agency is not accurate, please contact us and we will promptly investigate your concern.</p>
+      <p>Fair Credit Reporting Act (FCRA) Consumer dispute requests can be submitted via email to consumer@rapidcourt.com or you may write to us at:</p>
+      <ul>
+          <li>FCRA Consumer Request</li>
+          <li>RapidCourt, LLC</li>
+          <li>9710 Northcross Center Ct, Suite 105</li>
+          <li>Huntersville, NC 28078 </li>
+      </ul>
+      <p>In your communications it will be helpful if you specify what information you believe to be inaccurate or incomplete and provide an explanation and/or documentation of why you believe the information is inaccurate or incomplete.</p>
+      <p>If you believe that the public record itself may be inaccurate, contacting the public agency directly (for example, the courthouse) about the disputed public record may also be beneficial to clearing up any inaccuracies.</p>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Dismiss</a>
+    </div>
+  </div> 
         
   <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
