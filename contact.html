@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playball" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <!--head-->
+  <div class='row' id='header'>
+      
+      <div class='col l8 m8 s12'>
+          <img src='images/logo_rapidcourt.png' id='logo' class='left'>
+          <a href="#" data-activates="slide-out" class="button-collapse hide-on-med-and-up"><i id="menuButton" class="small material-icons black-text right">menu</i></a>
+      </div>
+      <div class='col l4 m4 s12'>
+          
+          <button id='topButton' class="waves-effect waves-light btn green right" href='#'>Client Login</button>
+      </div>
+  </div>
+  <!--end head-->
+  <!--nav-->
+  <nav  class="left hide-on-small-only">
+    <div class="nav-wrapper black white-text">
+      <ul id="nav-mobile">
+        <li><a href="index.html">Home</a></li>
+        <li><a  href="partners">Software Partners</a></li>
+        <li class='active'><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+   <!--sidenav for mobile-->
+      <ul class='side-nav hide-on-med-and-up' id="slide-out">
+        <li class="active"><a class='black-text' href="index.html">Home</a></li>
+        <li><a class='black-text' href="partners.html">Software Partners</a></li>
+        <li><a class='black-text' href="contact.html">Contact</a></li>
+        
+      </ul>
+        <!--end nav-->
+  <!--<div class='row' id='greenImageArea'> </div>-->
+  <div class='row'>
+      <!--first col-->
+     <div class='col l8 m8 s12'>
+         
+         <div class="row">
+        <div class='card grey lighten-4' id='contactCardLeft'>
+            <div class='card-content'>
+                <div class='row'>
+                    <h4 class='green-text'>Contact</h4>
+                     <p>You may contact us any of the following ways:</p>
+                </div>
+               
+                    <h5>Corporate Office:</h5>
+                    <p>RapidCourt.Com
+                        9710 Northcross Center Ct.
+                        Suite 105
+                        Huntersville, NC 28078
+                        704-997-0101 (phone)
+                        704-997-0102 (fax)</p>
+                        
+                        <h5>Product/Service Information:</h5>
+                        <a href='https://rapidcourt.com/?action=public.apply' class='green-text'>Complete our online service request form.</a>
+                        
+                        <h5>Technical Support:</h5>
+                          <a class="waves-effect waves-light btn modal-trigger green" href="#modal1">Contact Support</a><br><br><br>
+
+              <p>For additional requests or comments, including information about employment please contact us by mail or phone at our corporate office.</p>
+                
+            </div>
+        </div>
+      </div>
+         </div>
+     
+     
+     <!-- col2-->
+      <div class='col l4 m4 s12'>
+          <div class='row center'>
+          <div class='card grey lighten-4' id='contactCard'>
+               <div class='row green center white-text'>
+                      <h4>Contact us today for more info!</h4>
+                  </div>
+              <div class='card-content'>
+                 
+                  <p id='contactSideP'>RapidCourt.Com provides you with prompt, courteous service with a smile!<br>You get the answers you need in a timely manner.<br>We will provide specific account information, technical support or can offer website training or a trial account.</p>
+                 <!--button to trigger a contact modal-->
+              </div>
+          </div>
+      </div>
+     
+      <div class='row'>
+          <img src='images/napbs.png' id='napbs'>
+      </div>
+      </div>
+      <!--end col2-->
+  </div>
+
+        <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+        
+  <script src="https://code.jquery.com/jquery-3.3.0.min.js " integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    
+     <script>
+        $(document).ready(function() {
+            $('.modal').modal();
+            $('.collapsible').collapsible();
+            $(".button-collapse").sideNav();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+<!--this is copyrighted by josh jancula 2018 all rights reserved-->

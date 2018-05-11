@@ -6,6 +6,7 @@ body {
       position: absolute;
 }
 
+
 #topButton {
     margin: 5%;
 }
@@ -66,6 +67,34 @@ body {
     margin-right: 7%;
 }
 
+
+.partnerImage {
+    width: 25%;
+    display: inline-block;
+    margin: 3%;
+}
+
+#softwareCard {
+    margin-top: 10%;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+#contactSideP {
+    margin-top: -5%;
+}
+
+#contactCard {
+    margin-top: 10%;
+    margin-bottom: -1%;
+}
+
+#contactCardLeft {
+    margin-top: 5%;
+}
+
+/*end large*/
+
 /*  this is for tables */
 @media screen and (max-width: 992px) and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2) {
     #mainTopP {
@@ -81,17 +110,44 @@ body {
 }
 
 #napbs {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 #greenImageArea {
-    margin-bottom: -20%;
+    margin-bottom: -10%;
+    border-top: 15px solid black;
 }
 
 #sayingP {
     margin-top: -5%;
+}
+
+#softwareCard {
+    margin-top: 20%;
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+#menuButton {
+        margin-top: 5%;
+        margin-right: 3%;
+       
+    }
+    
+    #topButton {
+    margin: 5%;
+    margin-top: 15%;
+}
+
+#contactSideP {
+    margin-top: -20%;
+}
+
+#contactCard {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 }
 
@@ -132,6 +188,11 @@ body {
 #sayingP {
     margin-top: -5%;
 }
+
+ #topButton {
+    margin: 5%;
+    margin-top: 10%;
+}
 }
 
 
@@ -156,6 +217,7 @@ body {
      background-repeat: no-repeat;
      height: 250px;
      width: 100%;
+     border-top: 15px solid black;
 }
 
 #napbs {
@@ -170,7 +232,7 @@ body {
 }
 
 #greenImageArea {
-    margin-bottom: -35%;
+    margin-bottom: -30%;
 }
 
 #logo {
@@ -179,6 +241,7 @@ body {
 
 #topButton {
     margin: 3%;
+
 }
 
 #noticeButton {
@@ -195,4 +258,14 @@ body {
 #sayingP {
     margin-top: -5%;
 }
+
+#softwareCard {
+    margin-top: 5%;
+    font-size: 16px;
+    margin-bottom: 10%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 }
